@@ -13,7 +13,7 @@ const Navbar = () => {
     >
       <Link to='/'>
         <img src={Logo} alt="logo" style={{
-          width: '170px', height: '40px', cursor:'pointer',href:'/'
+          width: '140px', height: '40px', cursor:'pointer',href:'/'
         }} />
       </Link>
       <Stack
@@ -22,7 +22,7 @@ const Navbar = () => {
         fontSize='24px'
         alignItems='flex-end'
       >
-        <Link to='/' style={{ textDecoration: 'none', color: '#3A1212', borderBottom:'3px solid #ff2625',cursor: 'pointer'}}>Home</Link>
+        <Link to='/' style={{ textDecoration: 'none', color: '#3A1212', borderBottom:'3px solid #5A6351',cursor: 'pointer'}}>Home</Link>
 
         <a href="#exercises" style={{textDecoration:'none',color: '#3A1212', cursor: 'pointer'}}>Exercises</a>
       </Stack>

@@ -94,8 +94,8 @@ body {
   }
   
   .search-btn:hover {
-    color: #FF2625 !important;
-    border: 1px solid #FF2625 !important;
+    color: rgb(0, 0, 0) ;
+    border: 1px solid #2F4F4F ;
   }
   
   .exercise-video {
@@ -105,6 +105,12 @@ body {
     width: 387px;
     height: 381px;
     text-decoration: none;
+  }
+
+  .opacity-excercise{
+    background: -webkit-linear-gradient(rgb(12, 158, 231), rgb(39, 41, 66));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   }
   
   @media screen and (max-width:1200px) {
