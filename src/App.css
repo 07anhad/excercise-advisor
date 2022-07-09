@@ -65,6 +65,7 @@ body {
   }
   
   .exercise-card {
+    /* margin-top: 50px; */
     width: 400px;
     height: 445px;
     background: #fff;
