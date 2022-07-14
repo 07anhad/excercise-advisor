@@ -44,7 +44,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
       mt='50px'
       p='20px'
     >
-      <Typography variant= 'h4' fontWeight={600} sx={{fontSize:{lg:'40px',xs:'40px'}}} mb="23px" mt="30px" fontStyle='sans-serif' color="#2F4F4F">
+      <Typography variant= 'h4' fontWeight={600} sx={{fontSize:{lg:'40px',xs:'40px'}}} mb="23px" mt="30px" fontStyle='sans-serif' color="#064884">
         <center>Showing Results</center>
       </Typography>
       <Stack direction='row' sx={{ gap: { lg: '110px', xs: '50px' } }}
