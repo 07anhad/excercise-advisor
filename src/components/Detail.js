@@ -33,13 +33,13 @@ const Detail = ({exerciseDetail}) => {
               <Typography color="black" fontWeight="800" textTransform="capitalize" variant='h4' >
                   {name}
               </Typography>
-              <Typography variant="h6">
+              <Typography variant="h6" sx={{mt:{xs:'10px'}, mb:{xs:'20px'}}}>
                   Performing exercises keep you strong and healty. <Typography color="#064884" fontWeight="800" textTransform="capitalize" display="inline" variant="h5">{name}</Typography> is one of the best exercises to target your <Typography color="#064884" fontWeight="800" textTransform="capitalize" display="inline" variant="h5">{target}.</Typography> It'll help you improve your mood and lifestyle
               </Typography>
 
               {extraDetail.map((item) => (
                   <Stack key={item.name} direction="row" gap="24px" alignItems="center">
-                      <Button sx={{background:'#fff2db',borderRadius:"50%", width:"100px", height:"100px"}}>
+                      <Button sx={{background:'#fff2db',borderRadius:"50%", width:"100px", height:"100px", mb:'15px'}}>
                           <img src={item.icon} alt={bodyPart} style={{width:'50px', height:'50px'}}/>
                       </Button>
                       <Typography variant="h5" color="#064884" fontWeight="550" textTransform="capitalize">

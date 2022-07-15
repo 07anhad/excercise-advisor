@@ -11,18 +11,14 @@ const Navbar = () => {
       justifyContent='space-around'
       sx={{ gap: { sm: '122px', xs: '40px' }, mt: { sm: '32px', xs: '20px' }, justifyContent: 'none', px: '20px' }}
     >
-      <Link to='/'>
-        {/* <img src={Logo} alt="logo" style={{
-          width: '140px', height: '40px', cursor:'pointer',href:'/'
-        }} /> */}
-      </Link>
+      
       <Stack
         direction='row'
         gap='40px'
         fontSize='24px'
         alignItems='flex-end'
       >
-        <Link to='/' style={{ textDecoration: 'none', color: '#3A1212', borderBottom:'3px solid #5A6351',cursor: 'pointer'}}>Home</Link>
+        <a href= "#home" style={{ textDecoration: 'none', color: '#3A1212', borderBottom:'3px solid #5A6351',cursor: 'pointer'}}>Home</a>
 
         <a href="#exercises" style={{textDecoration:'none',color: '#3A1212', cursor: 'pointer'}}>Exercises</a>
       </Stack>
